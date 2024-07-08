@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T05:16:04.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="NTDmayJ6p0rFEyik_TdH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T05:56:04.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6rsX7z30Peg5ReNdSG1u" version="24.6.4" type="github">
   <diagram name="Page-1" id="Hmv5XgUySF50kmSMQmcE">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-11" value="Request Info&lt;div&gt;---------------------------&lt;br&gt;&lt;div&gt;- Timer Job 1 (Queued)&lt;/div&gt;&lt;div&gt;- Timer Job 2 (Running)&lt;/div&gt;&lt;div&gt;- Async Job / Workitem (Running)&lt;/div&gt;&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="590" y="800" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="tQ7MiWIFMAlTSZspGYBX-13" target="tQ7MiWIFMAlTSZspGYBX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-13" value="BPM Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="810" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-18" value="&lt;b&gt;Job Executor&lt;/b&gt;&amp;nbsp;&lt;div&gt;Thread 1&lt;/div&gt;&lt;div&gt;Thread 2&lt;/div&gt;&lt;div&gt;Thread 3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="tQ7MiWIFMAlTSZspGYBX-13">
+          <mxGeometry x="10" y="40" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-19" value="BPM Engine&amp;nbsp;&lt;div&gt;Timer Job 1&lt;/div&gt;&lt;div&gt;Timer Job 2&lt;/div&gt;&lt;div&gt;Async WorkItem 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="tQ7MiWIFMAlTSZspGYBX-13">
+          <mxGeometry x="10" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ7MiWIFMAlTSZspGYBX-14" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="520" width="480" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
